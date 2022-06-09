@@ -10,6 +10,7 @@ li{
 }
 
 body {
+    background-color: #d7e1ee;
     font-family: Arial;
     width: 90%;
     margin-left: auto;
@@ -22,7 +23,7 @@ body {
 }
 /* Search box section */
 .search-section{
-    background-color: #6461a0;
+    background-color: #df8879;
     padding: 10px;
 }
 
@@ -50,11 +51,24 @@ li:hover{
 }
 /* pill button for username */
 .username{
-    background-color: #6461a0;
+    background-color: #df8879;
     color: #ffffff;
     padding: 6px;   
     font-size: 14px;
     border-radius: 5px;
+}
+
+#main-footer {
+    width: 100%;
+    border: none;
+    margin: 15px 0;
+    padding: 20px;
+    background-color: #df8879;
+}
+
+#main-footer p {
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Media query for large screens */
